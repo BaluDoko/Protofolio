@@ -12,11 +12,17 @@
   border: 1px solid white;
 }
 
-.edu {
+.common {
   font-family: kaushan Script;
   font-size: 2rem;
   font-weight: 900;
   margin-top: 4rem;
   border-bottom: 2px solid;
   display: inline-block;
+}
+.edu:hover {
+  border-bottom: 0px solid;
+}
+hr {
+  background-image: white;
 }

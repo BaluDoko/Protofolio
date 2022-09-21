@@ -4,14 +4,14 @@ import Home from "./Components/Home/Home";
 import Education from "./Components/Education/Education";
 import "./App.css";
 import educations from "./Components/Education/educations";
+import Skills from "./Components/Skills/Skills";
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Home />
-      <hr style={{ width: "1200px" }} />
-      <h1 className="edu">Education History</h1>
-      {/* <Education /> */}
+      <hr />
+      <h1 className="common">Education History</h1>
       {educations.map((edu) => (
         <Education
           title={edu.title}
@@ -20,13 +20,10 @@ function App() {
           where2={edu.where2}
           cgpa={edu.cgpa}
           mark={edu.mark}
-
-          // where1: "University College of Engineering,",
-          // where2: "BIT campus, Anna University, Tiruchirappalli",
-          // cgpa: "Cumulative Grade Point Average :",
-          // mark: "8.38 /10"
         />
       ))}
+      <hr />
+      <Skills />
     </div>
   );
 }
