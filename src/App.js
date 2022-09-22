@@ -23,6 +23,7 @@ function App() {
         />
       ))}
       <hr />
+
       <Skills />
     </div>
   );
