@@ -4,7 +4,7 @@ import SchoolIcon from "@mui/icons-material/School";
 
 function Services(props) {
   return (
-    <div id="maineducation" className="education">
+    <div className="education">
       <div className="class">
         <span>
           <SchoolIcon style={{ marginRight: "10px" }} />

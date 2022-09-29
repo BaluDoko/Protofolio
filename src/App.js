@@ -3,14 +3,17 @@ import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import Education from "./Components/Education/Education";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import educations from "./Components/Education/educations";
 import Skills from "./Components/Skills/Skills";
+import Projects from "./Components/Project/Project";
+import Contact from "./Components/Contact/Contact";
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Home />
-      <hr />
+
       <h1 className="common">Education History</h1>
       {educations.map((edu) => (
         <Education
@@ -22,9 +25,10 @@ function App() {
           mark={edu.mark}
         />
       ))}
-      <hr />
 
       <Skills />
+      <Projects />
+      <Contact />
     </div>
   );
 }

@@ -15,15 +15,13 @@ function Navbar() {
       <div className="nav-right">
         <div className="nav-list">
           <ul>
-            <a href="#mainhome">Home</a>
-            <a href="#maineducation">Education</a>
-            <a href="#mainskill">Skills</a>
-            <a href="#mainproject">Projects</a>
+            <a href="#">Home</a>
+            <a href="#">Education</a>
+            <a href="#">Skills</a>
+            <a href="#">Projects</a>
           </ul>
         </div>
-        <button className="nav-button button">
-          <a href="#maincontact">Let's CONNECT</a>
-        </button>
+        <button className="nav-button button">Let's CONNECT</button>
       </div>
     </div>
   );

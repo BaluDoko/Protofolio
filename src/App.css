@@ -1,5 +1,4 @@
 .App {
-  padding: 1rem 3.5rem;
   overflow: hidden;
   background-color: #282c34;
   color: white;
@@ -25,4 +24,9 @@
 }
 hr {
   background-image: white;
+  position: absolute;
+  width: 85%;
+}
+h1 {
+  margin-left: 1rem;
 }

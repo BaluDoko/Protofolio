@@ -1,0 +1,38 @@
+.projectTitle {
+  margin-top: 100px;
+}
+.project {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+  gap: 20px;
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
+}
+.box {
+  width: 89%;
+  margin: auto;
+}
+.project-title {
+  font-family: Kaushan Script;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 10px;
+  white-space: nowrap;
+  width: 218px;
+  margin: 6rem auto 1rem;
+}
+.card {
+  width: 350px !important;
+  margin: 20px 0;
+  height: 500px;
+}
+.card:hover {
+  transform: scale(1.05);
+}

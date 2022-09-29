@@ -1,10 +1,23 @@
+.skill {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+.skill-container {
+  border-radius: 10px;
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
+}
 .skill-bx {
   width: 90%;
   margin: 0 auto;
 }
 
-.skill-bx > h2 {
-  margin: 20px auto;
+.skill-bx h2 {
+  margin: 30px auto;
   width: 100px;
   font-family: kaushan Script;
   font-size: 2rem;
@@ -12,23 +25,27 @@
   border-bottom: 2px solid;
   display: block;
 }
+.skill-container h2 {
+  width: 160px !important;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
 .skill-slider {
   display: flex;
-  width: 90%;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   margin: auto;
-  background-color: #4158d0;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     43deg,
     #4158d0 0%,
     #c850c0 46%,
     #ffcc70 100%
-  );
-
-  border-radius: 10px;
-  height: 200px;
+  ); */
 }
 .item {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,6 +57,18 @@
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   color: black;
   border-radius: 20px;
-
+  margin-bottom: 90px;
   width: 250px;
+  height: 7.5rem;
+}
+.item h1 {
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.label {
+  position: absolute;
+  margin-top: 75px;
+  margin-right: 3px;
 }

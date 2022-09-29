@@ -8,7 +8,7 @@ import CodeIcon from "@mui/icons-material/Code";
 
 function Home() {
   return (
-    <div id="mainhome" className="home">
+    <div className="home">
       <div className="home-left">
         <div className="home-text">
           <div className="home-title">
@@ -25,10 +25,10 @@ function Home() {
           <a href="https://github.com/VijayaragavanS1999">
             <GitHubIcon />
           </a>
-          <a href="https://www.linkedin.com/in/vijaya-ragavan-858b671ba/">
+          <a href="">
             <LinkedInIcon />
           </a>
-          <a href="mailto:sasigaviprt@gmail.com">
+          <a href="">
             <EmailIcon />
           </a>
         </div>

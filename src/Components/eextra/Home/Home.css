@@ -1,11 +1,11 @@
 .home {
-  width: 90%;
   display: flex;
+
   margin-top: 3rem;
 }
 .home-left {
   display: flex;
-  margin: auto;
+  flex: 1;
   gap: 1rem;
   flex-direction: column;
 }
@@ -72,11 +72,8 @@
     border-color: white;
   }
 }
-.home-text a {
-  text-decoration: none;
-}
+
 .home-button {
-  display: block;
   margin-top: 1.5rem;
   margin-left: 10rem;
   width: 9rem;
@@ -113,12 +110,13 @@
 
 .home-right {
   display: flex;
+  flex: 1;
   position: relative;
 }
 .vijay {
   position: absolute;
-  width: 18rem;
-  height: 14rem;
+  width: 20rem;
+  height: 15rem;
   /* border-radius: 63% 33% 57% 22% / 43% 37% 35% 37%; */
   transform: scale(1.8);
   left: 4rem;
@@ -134,7 +132,7 @@
     rgba(74, 47, 189, 0.5) 111.58%
   );
 
-  margin-top: 360px;
+  margin-top: 380px;
   margin-left: 320px;
 }
 
@@ -149,23 +147,4 @@
   top: 15px;
   left: 25px;
   transform: scale(1.5);
-}
-
-@media only screen and (max-width: 1000px) {
-  .home {
-    flex-direction: column;
-  }
-  .home-title {
-    flex-direction: column;
-  }
-  .span1 {
-    margin-left: 0;
-  }
-  .home-text > h1 {
-    margin: 1.5rem 0 0 0px;
-  }
-  .vijay {
-    position: absolute;
-    display: none;
-  }
 }
