@@ -7,7 +7,7 @@ import "./Skills.css";
 function Frontend() {
   const responsive = {
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
+      breakpoint: { max: 3000, min: 200 },
       items: 3,
     },
   };
