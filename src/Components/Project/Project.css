@@ -33,7 +33,6 @@
 .card {
   width: 350px !important;
   margin: 20px 0;
-  height: 500px;
 }
 .card:hover {
   transform: scale(1.05);
@@ -55,6 +54,5 @@
   .card {
     width: 250px !important;
     margin: 20px 0;
-    height: 500px;
   }
 }
