@@ -6,8 +6,12 @@ function BackendProject() {
   const projects = [
     {
       title: "Developer notes ",
-      description: "Design & Development",
+      description:
+        "An interactive website where you can use for notes taking. When you compose a note, it will be saved to home page as short summary.Through clicking it, you can see the whole notes.",
+      tech: "HTML, CSS, NODE, EXPRESS, EJS",
       imgUrl: memory,
+      code: "https://github.com/VijayaragavanS1999/My-memories-BackendProject",
+      demo: " https://damp-plains-84221.herokuapp.com/",
     },
   ];
 
