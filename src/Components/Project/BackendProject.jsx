@@ -5,7 +5,7 @@ import memory from "../../img/memories.png";
 function BackendProject() {
   const projects = [
     {
-      title: "Business Startup",
+      title: "Developer notes ",
       description: "Design & Development",
       imgUrl: memory,
     },
@@ -16,8 +16,6 @@ function BackendProject() {
       {projects.map((project, index) => {
         return <ProjectCard key={index} {...project} />;
       })}
-
-      <img className="background-image-right" src={""}></img>
     </section>
   );
 }

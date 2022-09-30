@@ -1,7 +1,8 @@
 .home {
   width: 90%;
   display: flex;
-  margin-top: 3rem;
+  margin: 2rem auto 0;
+  justify-content: center;
 }
 .home-left {
   display: flex;
@@ -157,15 +158,73 @@
   }
   .home-title {
     flex-direction: column;
+    margin: 0 auto;
+    width: 200px;
+  }
+  .home-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .span1 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 0.7rem;
+  }
+  .span2 {
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 10px;
+    white-space: nowrap;
+    margin-top: 0.1rem;
     margin-left: 0;
   }
   .home-text > h1 {
-    margin: 1.5rem 0 0 0px;
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0.5rem auto;
+    width: 230px;
   }
   .vijay {
     position: absolute;
+    display: none;
+  }
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 60%;
+    }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    60% {
+      border-color: white;
+    }
+  }
+  .home-button {
+    display: block;
+    margin: 0.5rem auto;
+    width: 9rem;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px 0;
+  }
+  .home-icon {
+    margin: auto;
+    display: flex;
+    gap: 3.5rem;
+  }
+  .dev {
     display: none;
   }
 }

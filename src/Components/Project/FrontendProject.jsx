@@ -8,14 +8,17 @@ function FrontendProject() {
     {
       title: "Microsoft Clone",
       description:
-        "Design & DmhabhsbdhSBD iihbcq dqedqe  qqdhi qiudqe qe qe qe dqeud qedevelopment",
+        "Fully responsive website where you can see all the section as in Microsoft  website",
+      tech: "HTML, CSS, JAVASCRIPT",
       imgUrl: Microsoft,
       code: "https://github.com/VijayaragavanS1999/Microsoft-clone",
       demo: "https://vijayaragavans1999.github.io/Microsoft-clone/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Track your Task ",
+      description:
+        "An interactive website where you can add, strike and remove their task",
+      tech: "HTML, CSS, JAVASCRIPT",
       imgUrl: ToDo,
       code: "https://github.com/VijayaragavanS1999/Track-Your-Task",
       demo: "https://vijayaragavans1999.github.io/Track-Your-Task/",

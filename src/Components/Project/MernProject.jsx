@@ -6,15 +6,18 @@ import crypto from "../../img/crypto.png";
 function MernProject() {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: myDairy,
+      title: "  Crypto Tracker ",
+      description:
+        "An interactive website where you can see the performance of  Cryptocurency market (coin price, volume, 24hr changes and market capital) and you can search a coin by using its name.",
+      tech: "HTML, CSS, JAVASCRIPT",
+      imgUrl: crypto,
     },
     {
-      title: "Microsoft Clone",
+      title: "Daily Dairy ",
       description:
-        "Design & DmhabhsbdhSBD iihbcq dqedqe  qqdhi qiudqe qe qe qe dqeud qedevelopment",
-      imgUrl: crypto,
+        "An interactive website where you can use as daily dairy where you can add the date and memories in that day",
+      tech: "HTML, CSS, REACT",
+      imgUrl: myDairy,
     },
   ];
 

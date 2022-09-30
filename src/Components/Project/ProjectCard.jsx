@@ -23,6 +23,20 @@ function ProjectCard(props) {
         <Typography variant="body2" color="text.secondary">
           {props.description}
         </Typography>
+        <Typography
+          style={{ fontSize: "1rem", marginTop: "1rem" }}
+          variant="h6"
+          color="text.primary"
+        >
+          Technologies Used;
+        </Typography>
+        <Typography
+          style={{ marginLeft: "1rem" }}
+          variant="body2"
+          color="text.secondary"
+        >
+          {props.tech}
+        </Typography>
       </CardContent>
       <CardActions>
         <Button size="small">
