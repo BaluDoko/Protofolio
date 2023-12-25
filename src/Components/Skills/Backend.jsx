@@ -1,9 +1,9 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import CircularProgress from "@mui/material/CircularProgress";
 import "./Skills.css";
-
+import { FaNode  } from "react-icons/fa";
+import { SiExpress, SiMongoose, SiMongodb  } from "react-icons/si";
 function Backend() {
   const responsive = {
     desktop: {
@@ -16,70 +16,35 @@ function Backend() {
     <div className="skill-container">
       <h2>Backend</h2>
       <Carousel
+        swipeable={false}
+        draggable={false}
         responsive={responsive}
         infinite={true}
-        className="owl-carousel owl-theme skill-slider backend"
+        containerClass="carousel-container"
+        itemClass="carousel-item-padding-40-px"
       >
         <div className="item">
+        <FaNode  className="icon" size={"150px"} />
+
           <h1>node.js</h1>
-          <CircularProgress
-            style={{ transform: "scale(2)" }}
-            className="label"
-            variant="determinate"
-            value={80}
-          />
-          <span>80%</span>
         </div>
         <div className="item">
-          /<h1>express.js</h1>
-          <CircularProgress
-            style={{ transform: "scale(2)" }}
-            className="label"
-            variant="determinate"
-            value={75}
-          />
-          <span>75%</span>
+        <SiExpress className="icon" size={"150px"} />
+
+          <h1>express.js</h1>
         </div>
         <div className="item">
+        <SiMongodb  className="icon" size={"150px"} />
+
           <h1>mongoDB</h1>
-          <CircularProgress
-            style={{ transform: "scale(2)" }}
-            className="label"
-            variant="determinate"
-            value={70}
-          />
-          <span>70%</span>
         </div>
         <div className="item">
+        <SiMongoose  className="icon" size={"150px"} />
+
           <h1>mongoose</h1>
-          <CircularProgress
-            style={{ transform: "scale(2)" }}
-            className="label"
-            variant="determinate"
-            value={70}
-          />
-          <span>70%</span>
         </div>
-        <div className="item">
-          <h1>Material UI</h1>
-          <CircularProgress
-            style={{ transform: "scale(2)" }}
-            className="label"
-            variant="determinate"
-            value={80}
-          />
-          <span>80%</span>
-        </div>
-        <div className="item">
-          <h1>React.js</h1>
-          <CircularProgress
-            style={{ transform: "scale(2)" }}
-            className="label"
-            variant="determinate"
-            value={70}
-          />
-          <span>70%</span>
-        </div>
+        
+        
       </Carousel>
     </div>
   );

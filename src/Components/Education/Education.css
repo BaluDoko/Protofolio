@@ -72,3 +72,21 @@ p {
     margin: auto;
   }
 }
+.education {
+  display: flex;
+  width: 90%;
+  margin: 20px auto 0;
+  flex-direction: column;
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out; /* Added transition for smooth scaling */
+}
+
+.education:hover {
+  transform: scale(1.02);
+}
+

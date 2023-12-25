@@ -12,12 +12,19 @@
 }
 
 .common {
-  font-family: kaushan Script;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.common h1 {
+  text-align: center;
+  border-bottom: 2px solid;
+  font-family: 'Kaushan Script'; /* Corrected font family */
   font-size: 2rem;
   font-weight: 900;
-  margin-top: 4rem;
-  border-bottom: 2px solid;
-  display: inline-block;
+  /* width: 50%; */
 }
 .edu:hover {
   border-bottom: 0px solid;

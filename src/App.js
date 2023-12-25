@@ -13,8 +13,12 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
+      <Skills />
+      <div className="common">
 
-      <h1 className="common">Education History</h1>
+      <h1 >Education History</h1>
+      </div>
+
       {educations.map((edu) => (
         <Education
           title={edu.title}
@@ -26,7 +30,7 @@ function App() {
         />
       ))}
 
-      <Skills />
+      
       <Projects />
       <Contact />
     </div>

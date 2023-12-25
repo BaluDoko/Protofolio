@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Vijay from "../../img/vijay.png";
+import Vijay from "../../img/vijay.jpg";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
