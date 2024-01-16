@@ -1,18 +1,5 @@
-.education {
-  display: flex;
-  width: 90%;
-  margin: 20px auto 0;
-  flex-direction: column;
-  background: linear-gradient(
-    90.21deg,
-    rgba(170, 54, 124, 0.5) -5.91%,
-    rgba(74, 47, 189, 0.5) 111.58%
-  );
-  border-radius: 10px;
-}
-.education:hover {
-  transform: scale(1.02);
-}
+
+
 .class {
   display: flex;
   justify-content: space-between;
@@ -20,7 +7,7 @@
   position: relative;
 }
 .class span {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-left: 1rem;
   margin-bottom: 10px;
 }
@@ -43,11 +30,11 @@ p {
     margin-bottom: 10px;
   }
   .edu-icon {
-    font-size: 1.3rem !important;
+    font-size: 3px !important;
     margin-bottom: 3px;
   }
   .class span {
-    font-size: 13px;
+    font-size: 7px;
     margin-bottom: 2px;
     margin-left: 0;
   }
@@ -77,16 +64,8 @@ p {
   width: 90%;
   margin: 20px auto 0;
   flex-direction: column;
-  background: linear-gradient(
-    90.21deg,
-    rgba(170, 54, 124, 0.5) -5.91%,
-    rgba(74, 47, 189, 0.5) 111.58%
-  );
+
   border-radius: 10px;
   transition: transform 0.3s ease-in-out; /* Added transition for smooth scaling */
-}
-
-.education:hover {
-  transform: scale(1.02);
 }
 

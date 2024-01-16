@@ -5,7 +5,7 @@ const educations = [
     year: "Sep 2017 - Apr 2021",
     where1: "University College of Engineering,",
     where2: "BIT campus, Anna University, Tiruchirappalli",
-    cgpa: "Cumulative Grade Point Average :",
+    cgpa: "CGPA :",
     mark: "8.38 /10",
   },
   {

@@ -8,6 +8,7 @@ import Typography from "@mui/material/Typography";
 import "./Project.css";
 
 function ProjectCard(props) {
+  console.log(props)
   return (
     <Card className="card">
       <CardMedia

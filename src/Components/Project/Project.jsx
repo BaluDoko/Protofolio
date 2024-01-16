@@ -71,7 +71,6 @@ function Project() {
         >
           <Tab label="FRONTEND" {...a11yProps(0)} />
           <Tab label="MERN" {...a11yProps(1)} />
-          <Tab label="BACKEND" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
       <SwipeableViews
@@ -84,9 +83,6 @@ function Project() {
         </TabPanel>
         <TabPanel value={value} index={1} dir={theme.direction}>
           <MernProject />
-        </TabPanel>
-        <TabPanel value={value} index={2} dir={theme.direction}>
-          <BackendProject />
         </TabPanel>
       </SwipeableViews>
     </Box>

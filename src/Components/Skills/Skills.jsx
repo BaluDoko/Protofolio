@@ -12,7 +12,6 @@ function Skills() {
         <div className="skill-bx wow zoomIn">
           <h2>Skills</h2>
           <Frontend />
-          <Backend />
         </div>
       </div>
     </div>

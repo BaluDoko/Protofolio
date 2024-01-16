@@ -4,12 +4,14 @@ import SchoolIcon from "@mui/icons-material/School";
 
 function Services(props) {
   return (
-    <div id="maineducation" className="education">
+    <div id="maineducation" >
+      <div className="title" style={{width:"175px"}}>Education</div>
+
       <div className="class">
-        <span>
-          <SchoolIcon className="edu-icon" style={{ marginRight: "10px" }} />
+        {/* <span>
+          <SchoolIcon className="edu-icon" style={{ marginRight: "10px", fontSize:"10px" }} />
           {props.title}
-        </span>
+        </span> */}
         <span className="year" style={{ fontSize: "1rem", color: "#808080" }}>
           {props.year}
         </span>

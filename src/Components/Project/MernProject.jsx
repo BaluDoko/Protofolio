@@ -2,9 +2,19 @@ import ProjectCard from "./ProjectCard";
 import "./Project.css";
 import myDairy from "../../img/Mydairy.png";
 import crypto from "../../img/crypto.png";
+import Socify from "../../img/socify.png";
 
 function MernProject() {
   const projects = [
+    {
+      title: " Socify",
+      description:
+        "A full-stack platform which allows users to register, share thoughts and images, explore posts from others, and engage by following friends..",
+      tech: "MERN - STACK",
+      imgUrl: Socify,
+      code: "https://github.com/VijayaragavanS1999/socify-Frontend",
+      demo: "https://socify-app.onrender.com",
+    },
     {
       title: "  Crypto Tracker ",
       description:
@@ -13,15 +23,6 @@ function MernProject() {
       imgUrl: crypto,
       code: "https://github.com/VijayaragavanS1999/Cryto-tracker",
       demo: "https://crypto-market1999.netlify.app",
-    },
-    {
-      title: "Daily Dairy ",
-      description:
-        "An interactive website where you can use as daily dairy where you can add the date and memories in that day",
-      tech: "HTML, CSS, MATERIAL UI, REACT",
-      imgUrl: myDairy,
-      code: "https://github.com/VijayaragavanS1999/Daily-Dairy",
-      demo: "https://daily-dairy1999.netlify.app",
     },
   ];
 

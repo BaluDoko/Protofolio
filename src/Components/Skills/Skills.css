@@ -51,17 +51,17 @@
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   color: black;
   border-radius: 20px;
-  margin-bottom: 90px;
+  margin-bottom: 20px;
   width: 220px;
   height: 7rem;
 }
 .item h1 {
   font-size: 1.2rem;
   font-weight: 900;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 0px !important;
-text-align: center;
-  margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 5px;
   text-transform: uppercase;
 }
 
@@ -100,6 +100,6 @@ text-align: center;
   }
 }
 
-.react-multi-carousel-item{
-  width:250px !important
+.react-multi-carousel-item {
+  width: 250px !important;
 }

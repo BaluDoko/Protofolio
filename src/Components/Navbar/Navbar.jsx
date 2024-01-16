@@ -16,8 +16,9 @@ function Navbar() {
         <div className="nav-list">
           <ul>
             <a href="#mainhome">Home</a>
-            <a href="#maineducation">Education</a>
+            <a href="#mainexperience">Experience</a>
             <a href="#mainskill">Skills</a>
+            <a href="#maineducation">Education</a>
             <a href="#mainproject">Projects</a>
           </ul>
         </div>

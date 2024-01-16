@@ -6,6 +6,9 @@ import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss, SiMui, SiRemix } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import { SiExpress, SiMongoose, SiMongodb } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
+
 
 function Frontend() {
   const responsive = {
@@ -29,7 +32,7 @@ function Frontend() {
           <FaHtml5 className="icon" size={"150px"} />
           <h1>html</h1>
         </div>
-        
+
         <div className="item">
           <FaCss3Alt className="icon" size={"150px"} />
 
@@ -65,9 +68,39 @@ function Frontend() {
           <h1>Next js </h1>
         </div>
         <div className="item">
-          <SiRemix  className="icon" size={"150px"} />
+          <SiRemix className="icon" size={"150px"} />
 
-          <h1>Remix  </h1>
+          <h1>Remix </h1>
+        </div>
+      </Carousel>
+      <h2>Backend</h2>
+      <Carousel
+        swipeable={false}
+        draggable={false}
+        responsive={responsive}
+        infinite={true}
+        containerClass="carousel-container"
+        itemClass="carousel-item-padding-40-px"
+      >
+        <div className="item">
+          <FaNode className="icon" size={"150px"} />
+
+          <h1>node.js</h1>
+        </div>
+        <div className="item">
+          <SiExpress className="icon" size={"150px"} />
+
+          <h1>express.js</h1>
+        </div>
+        <div className="item">
+          <SiMongodb className="icon" size={"150px"} />
+
+          <h1>mongoDB</h1>
+        </div>
+        <div className="item">
+          <SiMongoose className="icon" size={"150px"} />
+
+          <h1>mongoose</h1>
         </div>
       </Carousel>
     </div>

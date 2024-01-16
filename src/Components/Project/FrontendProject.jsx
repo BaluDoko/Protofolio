@@ -2,9 +2,19 @@ import ProjectCard from "./ProjectCard";
 import "./Project.css";
 import Microsoft from "../../img/microsoft.png";
 import ToDo from "../../img/to do.png";
+import Ecomify from "../../img/e-comify.png";
 
 function FrontendProject() {
   const projects = [
+    {
+      title: "E-comify",
+      description:
+        "A fully responsive e-commerce platform which enables users to filter products by category, add items to their cart, and adjust quantities for a seamless shopping experience.",
+      tech: "HTML, CSS, JAVASCRIPT, REACT.JS",
+      imgUrl: Ecomify,
+      code: "https://github.com/VijayaragavanS1999/Ecommerce-website",
+      demo: "https://e-comify.netlify.app/",
+    },
     {
       title: "Microsoft Clone",
       description:

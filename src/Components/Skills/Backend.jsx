@@ -2,8 +2,8 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./Skills.css";
-import { FaNode  } from "react-icons/fa";
-import { SiExpress, SiMongoose, SiMongodb  } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
+import { SiExpress, SiMongoose, SiMongodb } from "react-icons/si";
 function Backend() {
   const responsive = {
     desktop: {
@@ -24,27 +24,25 @@ function Backend() {
         itemClass="carousel-item-padding-40-px"
       >
         <div className="item">
-        <FaNode  className="icon" size={"150px"} />
+          <FaNode className="icon" size={"150px"} />
 
           <h1>node.js</h1>
         </div>
         <div className="item">
-        <SiExpress className="icon" size={"150px"} />
+          <SiExpress className="icon" size={"150px"} />
 
           <h1>express.js</h1>
         </div>
         <div className="item">
-        <SiMongodb  className="icon" size={"150px"} />
+          <SiMongodb className="icon" size={"150px"} />
 
           <h1>mongoDB</h1>
         </div>
         <div className="item">
-        <SiMongoose  className="icon" size={"150px"} />
+          <SiMongoose className="icon" size={"150px"} />
 
           <h1>mongoose</h1>
         </div>
-        
-        
       </Carousel>
     </div>
   );
