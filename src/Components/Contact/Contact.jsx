@@ -16,7 +16,7 @@ function Contact() {
           <a href="https://github.com/VijayaragavanS1999">
             <GitHubIcon />
           </a>
-          <a href="https://www.linkedin.com/in/vijaya-ragavan-858b671ba/">
+          <a href="https://www.linkedin.com/in/vijayaragavan-s-858b671ba">
             <LinkedInIcon />
           </a>
           <a href="mailto:sasigaviprt@gmail.com">

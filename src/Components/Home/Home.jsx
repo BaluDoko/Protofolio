@@ -16,7 +16,7 @@ function Home() {
             <span className="span2">Vijayaragavan</span>
           </div>
           <h1>MERN Stack Developer..</h1>
-          <a href="https://drive.google.com/file/d/1mj_1K3x0AiHHe-dlQaeJJ0epq-01SmwY/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1nEWXvbhkau4VHvuzaRiGpF4ZlmLO42sf/view?usp=sharing">
             <button className="home-button button">My RESUME</button>
           </a>
         </div>
@@ -25,7 +25,7 @@ function Home() {
           <a href="https://github.com/VijayaragavanS1999">
             <GitHubIcon />
           </a>
-          <a href="https://www.linkedin.com/in/vijaya-ragavan-858b671ba/">
+          <a href="https://www.linkedin.com/in/vijayaragavan-s-858b671ba">
             <LinkedInIcon />
           </a>
           <a href="mailto:sasigaviprt@gmail.com">
