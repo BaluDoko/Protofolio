@@ -11,6 +11,7 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import ExperienceCard from './ExperienceCard';
+import { Box } from "@mui/material";
 
 function Services(edu) {
   return (
@@ -24,13 +25,15 @@ function Services(edu) {
               <Timeline>
                 {experiences.map((experience, index) => (
                   <TimelineItem>
-                    <TimelineSeparator>
+                    {/* <TimelineSeparator>
                       <TimelineDot variant="outlined" color="secondary" />
                       {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
-                    </TimelineSeparator>
-                    <TimelineContent sx={{ py: '12px', px: 2 }}>
-                      <ExperienceCard experience={experience} />
-                    </TimelineContent>
+                    </TimelineSeparator> */}
+                    {/* <TimelineContent sx={{ py: '12px', px: 2 }}> */}
+                    <Box>
+                      <ExperienceCard sx={{ py: '12px', px: 2 }} experience={experience} />
+                      </Box>
+                    {/* </TimelineContent> */}
                   </TimelineItem>
                 ))}
               </Timeline>
@@ -39,7 +42,7 @@ function Services(edu) {
           </div>
         </div>
       </div>
-      <div className="eduDiv">
+      {/* <div className="eduDiv">
 
         <div id="maineducation" >
           <div className="title" style={{ width: "190px", marginBottom:"40px" }}>Education</div>
@@ -71,7 +74,7 @@ function Services(edu) {
             </>
           ))}
         </div>
-      </div>
+      </div> */}
 
     </div>
   );

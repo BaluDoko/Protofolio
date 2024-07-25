@@ -1,8 +1,12 @@
 .skill {
   display: flex;
-  width: 100%;
+  width: 100% !important;
   margin: auto;
   margin-top: 50px;
+}
+.container{
+  width: 100% !important;
+  max-width: 1377px;
 }
 .skill-container {
   border-radius: 10px;
@@ -13,7 +17,7 @@
   );
 }
 .skill-bx {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 

@@ -13,13 +13,13 @@ function Contact() {
           <HandshakeIcon className="touch-icon" />
         </div>
         <div className=" contact-icon">
-          <a href="https://github.com/VijayaragavanS1999">
+          <a href="https://github.com/Balu667">
             <GitHubIcon />
           </a>
-          <a href="https://www.linkedin.com/in/vijayaragavan-s-858b671ba">
+          <a href="https://www.linkedin.com/in/mahendra-balreddy-b024591a2/">
             <LinkedInIcon />
           </a>
-          <a href="mailto:sasigaviprt@gmail.com">
+          <a href="mailto:balreddymahendra7@gmail.com">
             <EmailIcon />
           </a>
         </div>

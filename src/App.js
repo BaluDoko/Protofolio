@@ -9,12 +9,14 @@ import Experience from "./Components/Experience/Experience";
 import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Project/Project";
 import Contact from "./Components/Contact/Contact";
+import ProfesinalSummary from "./Components/ProfesinalSumary";
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Home />
-      <Experience />
+      <ProfesinalSummary />
+      {/* <Experience /> */}
       <Skills />
      
 
