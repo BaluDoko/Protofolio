@@ -10,12 +10,11 @@ const ExperienceCard = ({ experience }) => {
                     <div className="company"><span >{experience.role}</span>
                         <span className='date' style={{}}>{experience.date}</span></div>
                         <div>
-                <span>Platforms: </span>
+                <span>Projects: </span>
                 {experience.platforms.map((item, i) => <a className='projecturl' target='_blank' href={item.projectUrl} key={i}>{item.projectName}</a>)}
             </div>
                 </div>
             </div>
-           
             <div className='description'>
                     <ul>
                         {experience.desc.map((val, i) => <li  className='des' key={i}>{val}</li>)}

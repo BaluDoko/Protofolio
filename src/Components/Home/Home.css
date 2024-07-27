@@ -239,6 +239,37 @@
     /* display: none; */
   }
 }
+
+@media only screen and (max-width: 500px){
+  .vijay{
+    width: 9rem !important;
+    height: 9rem !important;
+  }
+  .dev{
+    margin-left: 150px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .vijay{
+    width: 7rem !important;
+    height: 7rem !important;
+  }
+  .dev{
+    margin-left: 130px !important;
+    margin-top: 243px !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .vijay{
+    width: 6rem !important;
+    height: 6rem !important;
+  }
+  .dev{
+    margin-left: 28px !important;
+    margin-top: 243px !important;
+  }
+}
 .home {
   /* ... your existing styles ... */
   opacity: 0;

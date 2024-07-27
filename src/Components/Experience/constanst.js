@@ -34,7 +34,7 @@ export const experiences = [
     img: "https://media.licdn.com/dms/image/D560BAQGI0LFjxhmiew/company-logo_100_100/0/1685691880837/allmasters_ai_logo?e=1729728000&v=beta&t=faxhFCARZY9a11gbn64OBQFAdMmAxyRlGXbqdL28crM",
     role: "FullStack Web Developer",
     company: "Groupage Technologies Privite Limited.",
-    date: "Nov 2022 - Present",
+    date: "Dec 2022 - Present",
     platforms: [{
       projectName: "AllMasters, ",
       projectUrl:"https://www.allmasters.ai/"
@@ -45,12 +45,20 @@ export const experiences = [
     }
   
   ],
-    desc: ["Developed the core concept of our project — Cargo Details Page. This critical component, where individuals collaborated, serves as the focal point for intricate Package Dimension Calculations.",
+    desc: [
+      "Created and maintained responsive web applications using React.js, ensuring high performance and responsiveness.",
+      "Translated design mockups & business ideas into functional user interfaces, maintaining visual and functional fidelity.",
+     "Developed reusable UI components, functions, and modules to ensure efficient and consistent code across projects.",
+     "Managed application state using Redux Toolkit, ensuring robust and scalable state handling.",
+     "Proficiently handled and validated forms using React Hook Form and Yup, ensuring reliable data input and validation.",
+      "Developed the core concept of our project — Cargo Details Page. This critical component, where individuals collaborated, serves as the focal point for intricate Package Dimension Calculations.",
       "Implemented Tanstack Query for data fetching, leading to 80% reduction in loader time.",
+      "Implemented end-to-end user authentication and authorization using JWT tokens and session management, securing both frontend and backend.",
       "Salesync : Internal portal for sales and business teams, developed entire frontend (React.js). Integrated real-time communication through live chat using Socket.io.",
-      "Created Rest API for role, internal management (Node, Express, MongoDB, Mongoose)",
-      "Salesync : Integrated Socket.io for real-time communication",
-      "Created a custom middleware for all API to authenticate the user and Created mail templates using EJS"],
+      "Effectively configured and managed routes and middleware using the Express.js framework, ensuring efficient request handling and middleware application.",
+      "Integrated Socket.io for real-time communication",
+      "Expertly integrated MongoDB for efficient data storage and retrieval, leveraging its flexible schema design and powerful querying capabilities.",
+      ],
     skills: [
       "HTML",
       "CSS",
@@ -90,12 +98,16 @@ export const experiences = [
       projectUrl:"https://gem.gov.in/"
     },
   ],
-    desc: ["Developed the core concept of our project — Cargo Details Page. This critical component, where individuals collaborated, serves as the focal point for intricate Package Dimension Calculations.",
-    "Implemented Tanstack Query for data fetching, leading to 80% reduction in loader time.",
-    "Salesync : Internal portal for sales and business teams, developed entire frontend (React.js). Integrated real-time communication through live chat using Socket.io.",
-    "Created Rest API for role, internal management (Node, Express, MongoDB, Mongoose)",
-    "Salesync : Integrated Socket.io for real-time communication",
-    "Created a custom middleware for all API to authenticate the user and Created mail templates using EJS"],
+    desc: [
+      "Developing reusable & isolated UI components using ReactJs core principles.",
+      "Customized designs using MUI and Bootstrap to create unique user interfaces.",
+      "Maintained e-commerce websites and ensured design consistency across all browsers.",
+      "Met with clients to gather requirements and implemented solutions using React.js and Node.js core principles.",
+      "Devoping the E-Commerece website desings",
+      "Collaborate with cross-functional teams, including designers and backend developers, to implement and refine application features.",
+      "Ensuring the responsiveness of websites across all devices to deliver an optimal user experience.",
+      "Configuring routing and navigation using React Router for smooth user interactions"
+    ],
     skills: [
       "HTML",
       "CSS",
@@ -103,6 +115,43 @@ export const experiences = [
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
-
-
+  {
+    id: 1,
+    img: "https://media.licdn.com/dms/image/D560BAQHDGe3rf6GsRw/company-logo_200_200/0/1661505617860/0xytocin_labs_logo?e=1730332800&v=beta&t=fxhMEaw_JiMESM81l9uD4s3EKicsoNoO1VOCQzY5ed4",
+    role: "MERN Stack Developer",
+    company: "0xytocing Labs",
+    date: "June 2021 - Nov 2022",
+    platforms: [
+      {
+        projectName: "0xytocin, ",
+        projectUrl:"https://www.0xytocin.com/"
+      },
+      {
+      projectName: "Tomadachi, ",
+      projectUrl:""
+    },
+    {
+      projectName: "Skyverse, ",
+      projectUrl:""
+    },
+    {
+      projectName: "Goblin Slayer, ",
+      projectUrl:""
+    },
+  ],
+    desc: [
+      "Developed the 0xytocin company website using React js",
+      "Converted Adobe XD mockups into functional code from scratch using HTML, CSS, and React.",
+      "Customized user interfaces using MUI and Bootstrap to create visually appealing and user-friendly web applications.",
+      "Ensured responsive design principles were applied, resulting in web applications that adapt seamlessly to various screen sizes and devices.",
+      "Developed CRUD APIs using Express.js and Node.js for efficient server-side operations.",
+      "Handled data storage and retrieval using MongoDB, ensuring efficient and reliable database interactions.",
+    ],
+    skills: [
+      "HTML",
+      "CSS",
+      "Javascript",
+    ],
+    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+  },
 ];

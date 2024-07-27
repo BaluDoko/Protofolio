@@ -22,21 +22,22 @@ function Services(edu) {
             <div className="title">Experience</div>
 
             <div className="timelineSection">
-              <Timeline>
+              {/* <Timeline> */}
                 {experiences.map((experience, index) => (
-                  <TimelineItem>
-                    {/* <TimelineSeparator>
-                      <TimelineDot variant="outlined" color="secondary" />
-                      {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
-                    </TimelineSeparator> */}
-                    {/* <TimelineContent sx={{ py: '12px', px: 2 }}> */}
                     <Box>
-                      <ExperienceCard sx={{ py: '12px', px: 2 }} experience={experience} />
-                      </Box>
-                    {/* </TimelineContent> */}
-                  </TimelineItem>
+                    <ExperienceCard sx={{ py: '12px', px: 2 }} experience={experience} />
+                    </Box>
+                  // <TimelineItem>
+                  //   {/* <TimelineSeparator>
+                  //     <TimelineDot variant="outlined" color="secondary" />
+                  //     {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
+                  //   </TimelineSeparator> */}
+                  //   {/* <TimelineContent sx={{ py: '12px', px: 2 }}> */}
+                  
+                  //   {/* </TimelineContent> */}
+                  // </TimelineItem>
                 ))}
-              </Timeline>
+              {/* </Timeline> */}
 
             </div>
           </div>
