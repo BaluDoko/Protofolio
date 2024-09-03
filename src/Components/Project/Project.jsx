@@ -60,7 +60,8 @@ function Project() {
   return (
     <Box id="mainproject" className="box">
       <h2 className="project-title">My Projects</h2>
-      <AppBar position="static">
+      <FrontendProject />
+      {/* <AppBar position="static">
         <Tabs
           value={value}
           onChange={handleChange}
@@ -72,8 +73,8 @@ function Project() {
           <Tab label="FRONTEND" {...a11yProps(0)} />
           <Tab label="MERN" {...a11yProps(1)} />
         </Tabs>
-      </AppBar>
-      <SwipeableViews
+      </AppBar> */}
+      {/* <SwipeableViews
         axis={theme.direction === "rtl" ? "x-reverse" : "x"}
         index={value}
         onChangeIndex={handleChangeIndex}
@@ -84,7 +85,7 @@ function Project() {
         <TabPanel value={value} index={1} dir={theme.direction}>
           <MernProject />
         </TabPanel>
-      </SwipeableViews>
+      </SwipeableViews> */}
     </Box>
   );
 }

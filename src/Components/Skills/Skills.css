@@ -16,6 +16,7 @@
     rgba(170, 54, 124, 0.5) -5.91%,
     rgba(74, 47, 189, 0.5) 111.58%
   );
+  padding: 20px 0;
 }
 .skill-bx {
   width: 100%;
@@ -97,11 +98,14 @@
     padding-top: 10px;
   }
   .item {
-    width: 100px;
-    margin-bottom: 30px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .item h1 {
-    margin: 10px auto 40px;
+    margin: 0 !important
   }
 }
 

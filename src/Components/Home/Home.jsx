@@ -5,6 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import CodeIcon from "@mui/icons-material/Code";
+import { profileDetails } from "../../constansts";
 
 function Home() {
   return (
@@ -13,33 +14,32 @@ function Home() {
         <div className="home-text">
           <div className="home-title">
             <span className="span1">hey! I am </span>
-            <span className="span2">Mahendra</span>
+            <span className="span2">{profileDetails.profileName}</span>
           </div>
-          <h1>MERN Stack Developer..</h1>
+          <h1>{profileDetails.designation}..</h1>
           <a href="https://drive.google.com/file/d/1nEWXvbhkau4VHvuzaRiGpF4ZlmLO42sf/view?usp=sharing">
             <button className="home-button button">My RESUME</button>
           </a>
         </div>
 
         <div className="home-icon">
-          <a href="https://github.com/Balu667">
+          <a href={profileDetails.gitHubUrl}>
             <GitHubIcon />
           </a>
-          <a href="https://www.linkedin.com/in/mahendra-balreddy-b024591a2/">
+          <a target="_blank" rel="noreferrer" href={profileDetails.linkdinUrl} >
             <LinkedInIcon />
           </a>
-          <a href="mailto:balreddymahendra7@gmail.com">
+          <a href={`mailto:${profileDetails.email}`}>
             <EmailIcon />
           </a>
         </div>
       </div>
 
       <div className="home-right">
-        <img className="vijay" src={"https://media.licdn.com/dms/image/D5603AQGxonUZ8JaXGw/profile-displayphoto-shrink_800_800/0/1691868620371?e=1727308800&v=beta&t=CA88uXvlCLmJmlH3JO56pb9HvqjE-C-atMOufKO_ptE"} alt="" />
+        <img className="vijay" src={profileDetails.profilePicUrl} alt="profile-phot" />
         <div className="dev">
           <CodeIcon className="code-icon" />
-          <h1>FullStack</h1>
-          <h1>Web Developer</h1>
+          <h1>{profileDetails.designation}</h1>
         </div>
       </div>
     </div>

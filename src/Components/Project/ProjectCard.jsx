@@ -29,7 +29,7 @@ function ProjectCard(props) {
           variant="h6"
           color="text.primary"
         >
-          Technologies Used;
+          Technologies Used:
         </Typography>
         <Typography
           style={{ marginLeft: "1rem" }}
@@ -40,13 +40,13 @@ function ProjectCard(props) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">
+        {/* <Button size="small">
           <a style={{ textDecoration: "none" }} href={props.code}>
             See the Code
           </a>
-        </Button>
+        </Button> */}
         <Button size="small">
-          <a style={{ textDecoration: "none" }} href={props.demo}>
+          <a target="_blank" rel="noreferrer" style={{ textDecoration: "none" }} href={props.demo}>
             Live Demo
           </a>
         </Button>
