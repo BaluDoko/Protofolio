@@ -11,6 +11,10 @@
   border: 1px solid white;
 }
 
+body{
+  font-family: ;
+}
+
 .common {
   margin-top: 5rem;
   display: flex;

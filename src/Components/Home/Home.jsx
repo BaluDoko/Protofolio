@@ -17,15 +17,15 @@ function Home() {
             <span className="span2">{profileDetails.profileName}</span>
           </div>
           <h1>{profileDetails.designation}..</h1>
-          <a href="https://drive.google.com/file/d/1nEWXvbhkau4VHvuzaRiGpF4ZlmLO42sf/view?usp=sharing">
+          <a target="_blank" rel="noreferrer"  href={profileDetails.resumeLink}>
             <button className="home-button button">My RESUME</button>
           </a>
         </div>
 
         <div className="home-icon">
-          <a href={profileDetails.gitHubUrl}>
+          {/* <a href={profileDetails.gitHubUrl}>
             <GitHubIcon />
-          </a>
+          </a> */}
           <a target="_blank" rel="noreferrer" href={profileDetails.linkdinUrl} >
             <LinkedInIcon />
           </a>

@@ -3,6 +3,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import HandshakeIcon from "@mui/icons-material/Handshake";
 import "./Contact.css";
+import { profileDetails } from "../../constansts";
 
 function Contact() {
   return (
@@ -13,13 +14,13 @@ function Contact() {
           <HandshakeIcon className="touch-icon" />
         </div>
         <div className=" contact-icon">
-          <a href="https://github.com/Balu667">
+          {/* <a href="https://github.com/Balu667">
             <GitHubIcon />
-          </a>
-          <a href="https://www.linkedin.com/in/mahendra-balreddy-b024591a2/">
+          </a> */}
+          <a href={profileDetails.linkdinUrl}>
             <LinkedInIcon />
           </a>
-          <a href="mailto:balreddymahendra7@gmail.com">
+          <a href={`mailto:${profileDetails.email}`}>
             <EmailIcon />
           </a>
         </div>

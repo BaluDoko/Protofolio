@@ -8,18 +8,18 @@ function Services(props) {
       <div className="title" style={{width:"175px"}}>Education</div>
 
       <div className="class">
-        {/* <span>
+        <span>
           <SchoolIcon className="edu-icon" style={{ marginRight: "10px", fontSize:"10px" }} />
-          {props.title}
-        </span> */}
+          {"sdff"}
+        </span>
         <span className="year" style={{ fontSize: "1rem", color: "#808080" }}>
-          {props.year}
+          {"sd"}
         </span>
       </div>
-      <p>{props.where1}</p>
-      <p>{props.where2}</p>
+      <p>{"sadf"}</p>
+      <p>{"sdfsdf"}</p>
       <div className="grade">
-        <span className="cgpa">{props.cgpa}</span>
+        <span className="cgpa">{9.0}</span>
         <span
           className="percent"
           style={{
